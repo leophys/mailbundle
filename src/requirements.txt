@@ -1,2 +1,2 @@
 jinja2
-notmuch
+## mutt-notmuch>=1.3.0

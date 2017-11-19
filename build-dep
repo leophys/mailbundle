@@ -8,8 +8,8 @@ pythree="${vethree}/bin/python"
 pipthree="${vethree}/bin/pip"
 pip="${ve}/bin/pip"
 cd "$base"
-git submodule init
-git submodule update
+#git submodule init
+#git submodule update
 virtualenv -p $(which python2) --no-site-packages "$ve"
 virtualenv -p $(which python3) --no-site-packages "$vethree"
 cd "dep/afew"
