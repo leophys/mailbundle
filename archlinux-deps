@@ -1,7 +1,7 @@
 if [ -v "$PKGMGR" ]; then PACMAN=$PKGMGR; else PACMAN=pacaur; fi
 
 DEPS="
-mutt-kz
+neomutt
 notmuch
 offlineimap
 msmtp
