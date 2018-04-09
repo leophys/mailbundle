@@ -9,4 +9,4 @@ PATH=${PATH#:}
 PATH=${PATH%:}
 export PATH
 
-mutt -F "${MAIL_ENV}/muttrc" "$@"
+neomutt -F "${MAIL_ENV}/muttrc" "$@"

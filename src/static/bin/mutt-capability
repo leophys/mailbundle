@@ -10,7 +10,7 @@ fi
 cap=$1
 configfile=$2
 
-if mutt -v | fgrep -- "$cap" &> /dev/null; then
+if neomutt -v | fgrep -- "$cap" &> /dev/null; then
 	cat "$configfile"
 	exit 0
 fi
