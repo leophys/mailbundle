@@ -1,3 +1,6 @@
 [submodule "dep/afew"]
 	path = dep/afew
 	url = git://github.com/teythoon/afew.git
+[submodule "dep/notmuch"]
+    path = dep/notmuch
+    url = git://git.notmuchmail.org/git/notmuch

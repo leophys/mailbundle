@@ -14,6 +14,8 @@ virtualenv -p $(which python2) --no-site-packages "$ve"
 virtualenv -p $(which python3) --no-site-packages "$vethree"
 cd "dep/afew"
 "${pythree}" setup.py install
+cd "${base}/dep/notmuch/bindings/python"
+"${pythree}" setup.py install
 cd "$base"
 "${pip}" install -r src/requirements.txt
 
